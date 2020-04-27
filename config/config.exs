@@ -30,10 +30,7 @@ config :app, :imager,
     "cdn1.gttwl.net" => %{url: "https://gttwl.s3.amazonaws.com", storage: "/tmp/gttwl"},
     "cdn2.gttwl.net" => %{url: "https://gttwl.s3.amazonaws.com", storage: "/tmp/gttwl"},
     "cdn3.gttwl.net" => %{url: "https://gttwl.s3.amazonaws.com", storage: "/tmp/gttwl"},
-    "cdn4.gttwl.net" => %{url: "https://gttwl.s3.amazonaws.com", storage: "/tmp/gttwl"},
-    "dev.upyet.net" =>  %{url: "https://gttwl.s3.amazonaws.com", storage: "/tmp/upyet"},
-    "img.remarketforme.com" => %{url: " https://remarketforme.s3.amazonaws.com", storage: "/tmp/remarket"},
-    "localhost" => %{url: " https://remarketforme.s3.amazonaws.com", storage: "/tmp/remarket"}
+    "cdn4.gttwl.net" => %{url: "https://gttwl.s3.amazonaws.com", storage: "/tmp/gttwl"}
   }
 
 # Import environment specific config. This must remain at the bottom

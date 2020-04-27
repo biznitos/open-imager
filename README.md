@@ -5,7 +5,7 @@ This service mimics the most important parts of the imgix service and hosts imag
 Requirements:
 
   * Docker
-  * ImageMagick
+  * ImageMagick (mogrify and identify specifically) 
   * Some space on a volume on your server
 
 ## Getting Started
@@ -51,7 +51,7 @@ config :app, :imager,
 
   "https://images.gttwl.net/v1/image?w=100&h=100&url=[https://mysite.com/hello.png]
 
-# Other services
+# Other tiny services to help save time and money
 
   **Oembed data from any url**
   
